@@ -2,10 +2,12 @@
 # pip install bs4
 
 from geoNews import fetchGeoNews
+from aryNews import fetchAryNews
 
 
 def main():
     fetchGeoNews()
+    fetchAryNews()
 
 
 main()
